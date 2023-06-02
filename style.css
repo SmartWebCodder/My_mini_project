@@ -164,3 +164,22 @@ body{
     padding: 15px;
     text-align: left;
 }
+ul{
+    list-style: none;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    text-indent: 50px;
+}
+.leadershiptag
+.designtag{
+    list-style: none;
+    background-color: #f9f5ff;
+    color: #6941c6;
+}
+
+.managementtag
+.customertag{
+    background-color: #f8f9fc;
+    color: #363f72;
+}
