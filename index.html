@@ -7,6 +7,13 @@
     <title>My_mini_project</title>
     <link rel="stylesheet" href="./style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+
 </head>
 <body>
     <div class="container">
@@ -22,199 +29,217 @@
                 
                 <div class="srch-box">
                    <form action="email">
-                    <input type="email" placeholder="Enter your email">
-                    <button>Subscribe</button>
+                    <div class="form-group">
+                        <input type="email" placeholder="Enter your email">
+                        <button>Subscribe</button>
+                    </div>
                    </form>
                 </div>
                 <div class="para1">
-                    <p>We care about your data in our <span><a href="#">privacy policy</a></span></p>
+                    <p class="privacy-text">We care about your data in our<span><a href="#">privacy policy</a></span></p>
                 </div>
             </div>
         </div>
     </div>
         
-    <h5>Recent blog posts</h5>
-
-    <div class="blogPost">
-        <div class="item1"> 
-            <div><img src="./img/Image.png" height="150px" width=""> </div>
-            <div>
-                <h5 style="color:#7f56d9">Olivia Rhye . 20 Jan 2022</h5>
-                <h2>UX review presentations</h2>
-                <p>How do you create compelling presentations that wow your collleagues and <br>
-                   impress your managers?
-                </p>
-            </div>
-                
-                    <ul>
-                        <li class="designtag">Design</li>
-                        <li class="researchtag">Research</li>
-                        <li class="presentationtag">Presetation</li>
-                    </ul>
-                
-            
-        </div>
-        
-        <div class="item2">
-            <img src="./img/Image (2).png">
-
-            <div class="description">
-                <h5 style="color:#7f56d9">Phoeni Baker . 19 Jan 2022</h5>
-                <h2>Migrating to Linear 101</h2>
-                <p>Linear helps streamline software <br>
-                   projects, sprints, tasks, and bug <br>
-                   tracking. Here's how to get...
-                </p>
-
-                <ul>
-                    <li class="designtag">Design</li>
-                    <li class="researchtag">Research</li>
-                </ul>
-            
-            </div>
-        </div>
-                
-           
-        <div class="item3">
-            <img src="./img/Image (1).png">
-           
-                <div class="description">
-                    <h5 style="color:#7f56d9">Lana Steiner . 18 Jan 2022</h5>
-                    <h2>Building your API Stack</h2>
-                    <p>The rise of RESTful APIs has<br>
-                       been met by a rise in tools for  <br>
-                       creating, test, and manag...
+<div class="blog-body">
+    <h5 class="sub-title">Recent blog posts</h5>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="item1"> 
+                <div><img src="./img/Image.png" height="50%" width="100%"> </div>
+                <div class="blog-inner">
+                    <small class="blog-date">Olivia Rhye . 20 Jan 2022</small>
+                    <div class="title-seperate">
+                        <h3 class="blog-title">UX review presentations</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" stroke-width="2" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                          </svg>                          
+                    </div>
+                    <p class="blog-desc">How do you create compelling presentations that wow your collleagues and
+                       impress your managers?
                     </p>
-
-                    <ul>
-                        <li class="designtag">Design</li>
-                        <li class="researchtag">Research</li>
-                    </ul>
+                </div>
+                <div class="blog-cat">
+                    <a href="#" class="badge badge-primary">Design</a>
+                    <a href="#" class="badge badge-secondary">Research</a>
+                    <a href="#" class="badge badge-tertiary">Presentation</a>
+                </div>
+                    
+                
+            </div>
+        </div>
+        
+        <div class="col-lg-6">
+            <div class="item2">
+                <img src="./img/Image (2).png" class="img-left">
+    
+                <div class="description">
+                    <small class="blog-date">Phoeni Baker . 19 Jan 2022</small>
+                    <h3 class="side-title">Migrating to Linear 101</h3>
+                    <p class="blog-desc">Linear helps streamline software projects, sprints, tasks, and bug
+                       tracking. Here's how to get...
+                    </p>
+    
+                    <div class="blog-cat">
+                        <a href="#" class="badge badge-secondary">Design</a>
+                        <a href="#" class="badge badge-tertiary">Presentation</a>
+                    </div>
                 
                 </div>
-           
+            </div>
+
+            
+                <div class="item3">
+                    <img src="./img/Image (1).png" class="img-left">
+        
+                    <div class="description">
+                        <small class="blog-date">Lana Steiner . 18 Jan 2022</small>
+                        <h3 class="side-title">Building your API Stack</h3>
+                        <p class="blog-desc">The rise of RESTful APIs has been met by a rise in tools for
+                            creating, test, and manag...
+                        </p>
+        
+                        <div class="blog-cat">
+                            <a href="#" class="badge badge-overview">Design</a>
+                            <a href="#" class="badge badge-tertiary">Presentation</a>
+                        </div>
+                    
+                    </div>
+                </div>
+
         </div>
         
 
     </div>
 
-    <h3>All blog post</h3>
-
-    <div class="container-fluid">
-        <div class="row">
+    <br>
+    <br>
+    <h5 class="sub-title">All blog posts</h5>
+    
+        <div class="row row-with-space">
             <div class="col-lg-4">
                 <div class="item4">
-                    <img src="./img/Image.jpg">
+                    <img src="./img/Image.jpg" class="img-blog">
                     <div class="description">
-                        <h5 style="color:#7f56d9">Alec Whitten . 17 Jan 2022</h5>
-                        <h2>Bill Walsh leadership lessons</h2>
-                           Like to know the secret of transforming a 2-14 <br>
+                        <small class="blog-date">Alec Whitten . 17 Jan 2022</small>
+                        <div class="title-seperate">
+                            <h3 class="new-title">Bill Walsh leadership lessons</h3>                                                    
+                        </div>
+                          <p class="blog-desc"> Like to know the secret of transforming a 2-14
                            team into a 3x Super Bowl winning Dynasty?
                         </p>
-    
-                        <ul>
-                            <li class="leadershiptag">Leadership</li>
-                            <li class="managementtag">Management</li>
-                        </ul>
+
+                        <div class="blog-cat">
+                            <a href="#" class="badge badge-primary">Leadership</a>
+                            <a href="#" class="badge badge-secondary">Management</a>
+                        </div>
                     
                     </div>   
+            </div>
             </div>
             <div class="col-lg-4">
                 <div class="item5">
-                    <img src="./img/Image (1).jpg">
+                    <img src="./img/Image (1).jpg" class="img-blog">
                     <div class="description">
-                        <h5 style="color:#7f56d9">Demi Wllkison . 16 Jan 2022</h5>
-                        <h2>PM mental models</h2>
-                          Mental models are simple expressions of complex<br>
+                        <small class="blog-date">Demi Wllkison . 16 Jan 2022</small>
+                        <h3 class="new-title">PM mental models</h3>
+                        <p class="blog-desc">   Mental models are simple expressions of complex
                           processes or relationships.
                         </p>
-    
-                        <ul>
-                            <li class="producttag">Product</li>
-                            <li class="researchtag">Research</li>
-                            <li class="frameworktag">Frameworks</li>
-                        </ul>
+
+                        <div class="blog-cat">
+                            <a href="#" class="badge badge-overview">Product</a>
+                            <a href="#" class="badge badge-secondary">Research</a>
+                            <a href="#" class="badge badge-tertiary">Framework</a>
+                        </div>
                     
                     </div>   
             </div>
+            </div>
             <div class="col-lg-4">
                 <div class="item6">
-                    <img src="./img/Image (2).jpg">
+                    <img src="./img/Image (2).jpg" class="img-blog">
                     <div class="description">
-                        <h5 style="color:#7f56d9">Candice Wu . 15 Jan 2022</h5>
-                        <h2>What is Wireframing?</h2>
-                          Introduction to Wireframing and its Principle<br>
+                        <small class="blog-date">Candice Wu . 15 Jan 2022</small>
+                        <h3 class="new-title">What is Wireframing?</h3>
+                        <p class="blog-desc">  Introduction to Wireframing and its Principle
                           Learn from the best in the industry.
                         </p>
-    
-                        <ul>
-                            <li class="designtag">Design</li>
-                            <li class="researchtag">Research</li>
-                        </ul>
+
+                        <div class="blog-cat">
+                            <a href="#" class="badge badge-primary">Design</a>
+                            <a href="#" class="badge badge-secondary">Research</a>
+                        </div>
                     
                     </div>   
             </div>
         </div>
-        <div class="row">
+        </div>
+        <br>
+        <br>
+        <div class="row row-with-space">
                 <div class="col-lg-4">
                     <div class="item7">
-                        <img src="./img/Image (5).jpg">
+                        <img src="./img/Image (5).jpg" class="img-blog">
                         <div class="description">
-                            <h5 style="color:#7f56d9">Natali Craig . 14 Jan 2022</h5>
-                            <h2>How collaboration makes us <br>better designers</h2>
-                              Collaboration can make our teams stronger, and<br>
+                            <small class="blog-date">Natali Craig . 14 Jan 2022</small>
+                            <h3 class="new-title">How collaboration makes us <br>better designers</h3>
+                            <p class="blog-desc">  Collaboration can make our teams stronger, and
                               our individual designs better.
                             </p>
-        
-                            <ul>
-                                <li class="designtag">Design</li>
-                                <li class="researchtag">Research</li>
-                            </ul>
+
+                            <div class="blog-cat">
+                                <a href="#" class="badge badge-primary">Design</a>
+                                <a href="#" class="badge badge-secondary">Research</a>
+                            </div>
                         
                         </div> 
                     </div>  
                 </div>
                 <div class="col-lg-4">
                     <div class="item8">
-                        <img src="./img/Image (4).jpg">
+                        <img src="./img/Image (4).jpg" class="img-blog">
                         <div class="description">
-                            <h5 style="color:#7f56d9">Drew Cano . 13 Jan 2022</h5>
-                            <h2>Our top 10 Javascript <br>frameworks to use</h2>
-                              Javascript frameworksmake development easy<br>
+                            <small class="blog-date">Drew Cano . 13 Jan 2022</small>
+                            <h3 class="new-title">Our top 10 Javascript <br>frameworks to use</h3>
+                            <p class="blog-desc"> Javascript frameworksmake development easy
                               with extensive features and functionalities.
                             </p>
-        
-                            <ul>
-                                <li class="softwaretag">Software Development</li>
-                                <li class="toolstag">Tools</li>
-                                <li class="saastag">Saas</li>
-                            </ul>
+
+                            <div class="blog-cat">
+                                <a href="#" class="badge badge-overview">Software Development</a>
+                                <a href="#" class="badge badge-secondary">Tools</a>
+                                <a href="#" class="badge badge-tertiary">SaaS</a>
+                            </div>
                         
                         </div>   
                     </div>
                 </div>
-            </div>
+            
             <div class="col-lg-4">
                 <div class="item9">
-                    <img src="./img/Image (3).jpg">
+                    <img src="./img/Image (3).jpg" class="img-blog">
                     <div class="description">
-                        <h5 style="color:#7f56d9">Orlando Diggs . 12 Jan 2022</h5>
-                        <h2>Podcast: Creating a better <br>CX Community</h2>
-                          Starting a community doesn't nneed to be<br>
+                        <small class="blog-date">Orlando Diggs . 12 Jan 2022</small>
+                        <h3 class="new-title">Podcast: Creating a better <br>CX Community</h3>
+                        <p class="blog-desc"> Starting a community doesn't nneed to be<br>
                           complicated, but how do you get started?
                         </p>
     
-                        <ul>
-                            <li class="podcasttag">Podcasts</li>
-                            <li class="customertag">Customer Success</li>
-                        </ul>
+
+                        <div class="blog-cat">
+                            <a href="#" class="badge badge-primary">Podcast</a>
+                            <a href="#" class="badge badge-secondary">Customer Success</a>
+                        </div>
                     
                     </div> 
                 </div>  
             </div>
         </div>
-    </div>
+    
+</div>
 
-
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
