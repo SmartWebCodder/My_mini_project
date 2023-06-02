@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    font-family: inter;
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.content {
+    margin-top: 10px;
+    text-align: center;
+}
+  
+.banner-text{
+      margin-left: 55px;
+}
+
+.content h6{
+    font-size: 10px;
+    font-weight: 600;
+    color: #7f56d9;
+    margin-bottom: 15px;
+}
+
+  
+.content h1 {
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+}
+  
+.content p {
+    font-size: 20px;
+    line-height: 25px;
+    color: #7b88a5;
+}
+
+.Srch-box{
+    margin-left: 100px;
+}
+  
+.Srch-box input{
+    width: 360px;
+    height: 48px;
+    border: 1px #D0D5DD solid;
+    border-radius: 8px;
+    padding: 0px 15px;
+    margin-left: -50px;
+}
+
+.Srch-box button{
+    text-decoration: none;
+    background-color: #7f56d9;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    width: 118px;
+    height: 48px;
+    margin-left: 10px;
+}
+
+
+.Para1{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-left: 74px;
+}
+
+
+.Para1 a{
+     margin: 12px 0px 0px 6px; 
+    color: #667085;
+
+}
+
+.Para1 p{
+    margin-top: 12px;
+}
