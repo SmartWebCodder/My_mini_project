@@ -271,3 +271,98 @@ body{
         padding-bottom: 10px!important;
     }
 }
+
+.item4{
+    margin: 20px;
+    /* border: ; */
+    float: left;
+    width: 350px;
+}
+
+.item4 img{
+    width: 100%;
+    height: auto;
+}
+
+.item5{
+    margin: 20px;
+    /* border: ; */
+    float: left;
+    width: 350px;
+}
+
+.item5 img{
+    width: 100%;
+    height: auto;
+}
+
+.item6{
+    margin: 20px;
+    /* border: ; */
+    float: left;
+    width: 350px;
+}
+
+.item6 img{
+    width: 100%;
+    height: auto;
+}
+
+.item7{
+    margin: 20px;
+    /* border: ; */
+    float: left;
+    width: 350px;
+}
+
+.item7 img{
+    width: 100%;
+    height: auto;
+}
+
+.item8{
+    margin: 20px;
+    /* border: ; */
+    float: left;
+    width: 350px;
+}
+
+.item8 img{
+    width: 100%;
+    height: auto;
+}
+
+.item9{
+    margin: 20px;
+    /* border: ; */
+    float: left;
+    width: 350px;
+}
+
+.item9 img{
+    width: 100%;
+    height: auto;
+}
+.description{
+    padding: 15px;
+    text-align: left;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    text-indent: 50px;
+}
+.leadershiptag
+.designtag{
+    list-style: none;
+    background-color: #f9f5ff;
+    color: #6941c6;
+}
+
+.managementtag
+.customertag{
+    background-color: #f8f9fc;
+    color: #363f72;
+}
